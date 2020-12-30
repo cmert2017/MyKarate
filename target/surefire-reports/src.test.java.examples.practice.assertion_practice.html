@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+      
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            
+        <meta charset="utf-8">
+            
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+            
+        <link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+            
+        <link href="res/karate-report.css" rel="stylesheet" type="text/css">
+            
+        <link href="favicon.ico" rel="shortcut icon">
+            <script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+        <title>src.test.java.examples.practice.assertion_practice</title>
+          
+    </head>
+      
+    <body>
+            
+        <div id="root-container">
+                  
+            <div id="leftnav">
+                        
+                <div class="nav-logo">
+                              <a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+                    <div class="nav-count">
+                                    
+                        <div class="bg-success" id="nav-pass">2</div>
+                                    
+                        <div class="bg-danger" id="nav-fail">0</div>
+                                  
+                    </div>
+                            
+                </div>
+                        
+                <div id="nav-type">Scenarios</div>
+                         
+        
+                <div id="nav-date">2020-12-29 08:50:27 PM</div>
+                        
+      
+                <div class="nav-container">
+                    <div class="nav-item passed">
+                        <a href="#[1:2]">[1:2] Simple assertion for numbers </a>
+                    </div>
+                    <div class="nav-item passed">
+                        <a href="#[2:13]">[2:13] Working with Simple Json </a>
+                    </div>
+                </div>
+            </div>
+                  
+            <div id="content">
+                      
+                <div class="page-heading alert alert-primary">
+                    <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/examples/practice/assertion_practice.feature</span><span class="feature-description">Practice Assertion The Karate Way</span>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[1:2]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [1:2]</span><span class="scenario-name">Simple assertion for numbers </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 196</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="1">
+                            <div class="step-ref passed">1</div>
+                            <div class="step-cell passed">Given def num1 = 23</div>
+                        </div>
+                        <div class="time-cell passed">69</div>
+                    </div>
+                    <div class="preformatted" data-parent="1">20:50:25.981 karate.env system property was:</div>
+                    <div class="step-row">
+                        <div class="step-container" id="2">
+                            <div class="step-ref passed">2</div>
+                            <div class="step-cell passed">And def num2 = 45</div>
+                        </div>
+                        <div class="time-cell passed">9</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="3">
+                            <div class="step-ref passed">3</div>
+                            <div class="step-cell passed">Then assert num1 + num2 == 68</div>
+                        </div>
+                        <div class="time-cell passed">74</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref passed"></div>
+                            <div class="step-cell comment"># you can simply replace Given When Then keyword with *</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="4">
+                            <div class="step-ref passed">4</div>
+                            <div class="step-cell passed">* print 'Hello World !' + num1 + num2</div>
+                        </div>
+                        <div class="time-cell passed">10</div>
+                    </div>
+                    <div class="preformatted" data-parent="4">20:50:26.581 [print] Hello World !2345</div>
+                    <div class="step-row">
+                        <div class="step-container" id="5">
+                            <div class="step-ref passed">5</div>
+                            <div class="step-cell passed">* print 'Hello World !' + (num1 + num2)</div>
+                        </div>
+                        <div class="time-cell passed">29</div>
+                    </div>
+                    <div class="preformatted" data-parent="5">20:50:26.610 [print] Hello World !68</div>
+                    <div class="step-row">
+                        <div class="step-container" id="6">
+                            <div class="step-ref passed">6</div>
+                            <div class="step-cell passed">* print 'Hello World !' ,num1 ,num2</div>
+                        </div>
+                        <div class="time-cell passed">6</div>
+                    </div>
+                    <div class="preformatted" data-parent="6">20:50:26.616 [print] Hello World ! 23 45</div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[2:13]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [2:13]</span><span class="scenario-name">Working with Simple Json </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 424</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="7">
+                            <div class="step-ref passed">7</div>
+                            <div class="step-cell passed">* def myJson = {name: 'John', nums:[1,2,3]}</div>
+                        </div>
+                        <div class="time-cell passed">45</div>
+                    </div>
+                    <div class="preformatted" data-parent="7">20:50:26.736 karate.env system property was:</div>
+                    <div class="step-row">
+                        <div class="step-container" id="8">
+                            <div class="step-ref passed">8</div>
+                            <div class="step-cell passed">* print 'Whole Json is ' , myJson</div>
+                        </div>
+                        <div class="time-cell passed">42</div>
+                    </div>
+                    <div class="preformatted" data-parent="8">20:50:26.815 [print] Whole Json is  {
+  "name": "John",
+  "nums": [
+    1,
+    2,
+    3
+  ]
+}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="9">
+                            <div class="step-ref passed">9</div>
+                            <div class="step-cell passed">* print 'The name is ' , myJson.name</div>
+                        </div>
+                        <div class="time-cell passed">87</div>
+                    </div>
+                    <div class="preformatted" data-parent="9">20:50:26.916 [print] The name is  John</div>
+                    <div class="step-row">
+                        <div class="step-container" id="10">
+                            <div class="step-ref passed">10</div>
+                            <div class="step-cell passed">* print 'The nums are ' , myJson.nums</div>
+                        </div>
+                        <div class="time-cell passed">91</div>
+                    </div>
+                    <div class="preformatted" data-parent="10">20:50:27.008 [print] The nums are  [
+  1,
+  2,
+  3
+]</div>
+                    <div class="step-row">
+                        <div class="step-container" id="11">
+                            <div class="step-ref passed">11</div>
+                            <div class="step-cell passed">* print 'The  last nums is ' , myJson.nums[2]</div>
+                        </div>
+                        <div class="time-cell passed">103</div>
+                    </div>
+                    <div class="preformatted" data-parent="11">20:50:27.111 [print] The  last nums is  3</div>
+                    <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref passed"></div>
+                            <div class="step-cell comment">#assert the name is John, last number is 3</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="12">
+                            <div class="step-ref passed">12</div>
+                            <div class="step-cell passed">Then assert myJson.name == 'John'</div>
+                        </div>
+                        <div class="time-cell passed">30</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="13">
+                            <div class="step-ref passed">13</div>
+                            <div class="step-cell passed">Then assert myJson.nums[2] == 3</div>
+                        </div>
+                        <div class="time-cell passed">25</div>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+           
+  
+    </body>
+    
+</html>

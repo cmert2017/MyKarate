@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+      
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            
+        <meta charset="utf-8">
+            
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+            
+        <link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+            
+        <link href="res/karate-report.css" rel="stylesheet" type="text/css">
+            
+        <link href="favicon.ico" rel="shortcut icon">
+            <script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+        <title>src.test.java.examples.Spartans.spartan</title>
+          
+    </head>
+      
+    <body>
+            
+        <div id="root-container">
+                  
+            <div id="leftnav">
+                        
+                <div class="nav-logo">
+                              <a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+                    <div class="nav-count">
+                                    
+                        <div class="bg-success" id="nav-pass">1</div>
+                                    
+                        <div class="bg-danger" id="nav-fail">0</div>
+                                  
+                    </div>
+                            
+                </div>
+                        
+                <div id="nav-type">Scenarios</div>
+                         
+        
+                <div id="nav-date">2020-12-29 09:21:57 PM</div>
+                        
+      
+                <div class="nav-container">
+                    <div class="nav-item passed">
+                        <a href="#[1:6]">[1:6] User should be able to call /api/hello to get greeting </a>
+                    </div>
+                </div>
+            </div>
+                  
+            <div id="content">
+                      
+                <div class="page-heading alert alert-primary">
+                    <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/examples/Spartans/spartan.feature</span><span class="feature-description">Spartan App Feature testing | example url http://52.201.187.226:8000/api/spartans</span>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[1:6]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [1:6]</span><span class="scenario-name">User should be able to call /api/hello to get greeting </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 906</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="[1:6]bg">
+                            <div class="step-ref bg-step">&gt;&gt;</div>
+                            <div class="step-cell passed">Background:</div>
+                        </div>
+                        <div class="time-cell passed"></div>
+                    </div>
+                    <div class="step-row" data-parent="[1:6]bg">
+                        <div class="step-container" id="1">
+                            <div class="step-ref bg-step">1</div>
+                            <div class="step-cell passed">* url 'http://52.201.187.226:8000'</div>
+                        </div>
+                        <div class="time-cell passed">8</div>
+                    </div>
+                    <div class="preformatted" data-parent="1">21:21:56.214 karate.env system property was:</div>
+                    <div class="step-row">
+                        <div class="step-container" id="2">
+                            <div class="step-ref passed">2</div>
+                            <div class="step-cell passed">Given path 'api/hello'</div>
+                        </div>
+                        <div class="time-cell passed">27</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="3">
+                            <div class="step-ref passed">3</div>
+                            <div class="step-cell passed">When method get</div>
+                        </div>
+                        <div class="time-cell passed">866</div>
+                    </div>
+                    <div class="preformatted" data-parent="3">21:21:57.205 request:
+1 &gt; GET http://52.201.187.226:8000/api/hello
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: 52.201.187.226:8000
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.9)
+
+21:21:57.285 response time in milliseconds: 73.42
+1 &lt; 200
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 17
+1 &lt; Content-Type: text/plain;charset=UTF-8
+1 &lt; Date: Wed, 30 Dec 2020 02:21:56 GMT
+1 &lt; Keep-Alive: timeout=60
+Hello from Sparta</div>
+                    <div class="step-row">
+                        <div class="step-container" id="4">
+                            <div class="step-ref passed">4</div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref passed"></div>
+                            <div class="step-cell comment">#chekcing content type header</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="5">
+                            <div class="step-ref passed">5</div>
+                            <div class="step-cell passed">Then header Content-Type = 'text/plain;charset=UTF-8'</div>
+                        </div>
+                        <div class="time-cell passed">5</div>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+           
+  
+    </body>
+    
+</html>

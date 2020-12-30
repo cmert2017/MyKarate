@@ -1,0 +1,28 @@
+19:46:29.473 karate.env system property was: null 
+19:46:30.136 request:
+1 > GET https://www.zippopotam.us/us/22030
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.zippopotam.us
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:46:34.033 response time in milliseconds: 3890.81
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 6097be9628093848-IAD
+1 < Charset: UTF-8
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 30 Dec 2020 00:46:33 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=tcreVSlt6u6WvBV0IZ0pwOLKczPXmuufbAvd1npGomR5MsaOOb%2FrMMlnRCcGElUNEezdzZJebK9KwBPn6jcUesgEkTx%2FwRkJ0ilZNay0ljyUtQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=ddb83c737cee50b0beb1fdea0387f24f41609289193; expires=Fri, 29-Jan-21 00:46:33 GMT; path=/; domain=.zippopotam.us; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < X-Cache: hit
+1 < cf-request-id: 0752b571da00003848ff9ba000000001
+{"post code": "22030", "country": "United States", "country abbreviation": "US", "places": [{"place name": "Fairfax", "longitude": "-77.3242", "state": "Virginia", "state abbreviation": "VA", "latitude": "38.8458"}]}
+

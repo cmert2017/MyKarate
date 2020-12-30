@@ -1,0 +1,9 @@
+<testsuite failures="0" name="src/test/java/examples/Spartans/spartan.feature" skipped="0" tests="1" time="0.906185">
+  <testcase classname="src.test.java.examples.Spartans.spartan" name="User should be able to call /api/hello to get greeting" time="0.906185">
+    <system-out>* url 'http://52.201.187.226:8000' ........................................ passed
+Given path 'api/hello' .................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Then header Content-Type = 'text/plain;charset=UTF-8' ..................... passed</system-out>
+  </testcase>
+</testsuite>

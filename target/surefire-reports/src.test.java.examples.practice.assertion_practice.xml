@@ -1,0 +1,25 @@
+<testsuite failures="0" name="src/test/java/examples/practice/assertion_practice.feature" skipped="0" tests="2" time="0.620236">
+  <testcase classname="src.test.java.examples.practice.assertion_practice" name="Simple assertion for numbers" time="0.19597">
+    <system-out>Given def num1 = 23 ....................................................... passed
+And def num2 = 45 ......................................................... passed
+Then assert num1 + num2 == 68 ............................................. passed
+* print 'Hello World !' + num1 + num2 ..................................... passed
+* print 'Hello World !' + (num1 + num2) ................................... passed
+* print 'Hello World !' ,num1 ,num2 ....................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.examples.practice.assertion_practice" name="Working with Simple Json" time="0.424266">
+    <system-out>Given def num1 = 23 ....................................................... passed
+And def num2 = 45 ......................................................... passed
+Then assert num1 + num2 == 68 ............................................. passed
+* print 'Hello World !' + num1 + num2 ..................................... passed
+* print 'Hello World !' + (num1 + num2) ................................... passed
+* print 'Hello World !' ,num1 ,num2 ....................................... passed
+* def myJson = {name: 'John', nums:[1,2,3]} ............................... passed
+* print 'Whole Json is ' , myJson ......................................... passed
+* print 'The name is ' , myJson.name ...................................... passed
+* print 'The nums are ' , myJson.nums ..................................... passed
+* print 'The  last nums is ' , myJson.nums[2] ............................. passed
+Then assert myJson.name == 'John' ......................................... passed
+Then assert myJson.nums[2] == 3 ........................................... passed</system-out>
+  </testcase>
+</testsuite>

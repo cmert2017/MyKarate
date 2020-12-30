@@ -647,3 +647,1640 @@
 3 < X-Frame-Options: SAMEORIGIN
 {"count":82,"next":"http://swapi.dev/api/people/?page=2","previous":null,"results":[{"name":"Luke Skywalker","height":"172","mass":"77","hair_color":"blond","skin_color":"fair","eye_color":"blue","birth_year":"19BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":["http://swapi.dev/api/vehicles/14/","http://swapi.dev/api/vehicles/30/"],"starships":["http://swapi.dev/api/starships/12/","http://swapi.dev/api/starships/22/"],"created":"2014-12-09T13:50:51.644000Z","edited":"2014-12-20T21:17:56.891000Z","url":"http://swapi.dev/api/people/1/"},{"name":"C-3PO","height":"167","mass":"75","hair_color":"n/a","skin_color":"gold","eye_color":"yellow","birth_year":"112BBY","gender":"n/a","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":["http://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-10T15:10:51.357000Z","edited":"2014-12-20T21:17:50.309000Z","url":"http://swapi.dev/api/people/2/"},{"name":"R2-D2","height":"96","mass":"32","hair_color":"n/a","skin_color":"white, blue","eye_color":"red","birth_year":"33BBY","gender":"n/a","homeworld":"http://swapi.dev/api/planets/8/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":["http://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-10T15:11:50.376000Z","edited":"2014-12-20T21:17:50.311000Z","url":"http://swapi.dev/api/people/3/"},{"name":"Darth Vader","height":"202","mass":"136","hair_color":"none","skin_color":"white","eye_color":"yellow","birth_year":"41.9BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":["http://swapi.dev/api/starships/13/"],"created":"2014-12-10T15:18:20.704000Z","edited":"2014-12-20T21:17:50.313000Z","url":"http://swapi.dev/api/people/4/"},{"name":"Leia Organa","height":"150","mass":"49","hair_color":"brown","skin_color":"light","eye_color":"brown","birth_year":"19BBY","gender":"female","homeworld":"http://swapi.dev/api/planets/2/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":["http://swapi.dev/api/vehicles/30/"],"starships":[],"created":"2014-12-10T15:20:09.791000Z","edited":"2014-12-20T21:17:50.315000Z","url":"http://swapi.dev/api/people/5/"},{"name":"Owen Lars","height":"178","mass":"120","hair_color":"brown, grey","skin_color":"light","eye_color":"blue","birth_year":"52BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-10T15:52:14.024000Z","edited":"2014-12-20T21:17:50.317000Z","url":"http://swapi.dev/api/people/6/"},{"name":"Beru Whitesun lars","height":"165","mass":"75","hair_color":"brown","skin_color":"light","eye_color":"blue","birth_year":"47BBY","gender":"female","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-10T15:53:41.121000Z","edited":"2014-12-20T21:17:50.319000Z","url":"http://swapi.dev/api/people/7/"},{"name":"R5-D4","height":"97","mass":"32","hair_color":"n/a","skin_color":"white, red","eye_color":"red","birth_year":"unknown","gender":"n/a","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/"],"species":["http://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-10T15:57:50.959000Z","edited":"2014-12-20T21:17:50.321000Z","url":"http://swapi.dev/api/people/8/"},{"name":"Biggs Darklighter","height":"183","mass":"84","hair_color":"black","skin_color":"light","eye_color":"brown","birth_year":"24BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/"],"species":[],"vehicles":[],"starships":["http://swapi.dev/api/starships/12/"],"created":"2014-12-10T15:59:50.509000Z","edited":"2014-12-20T21:17:50.323000Z","url":"http://swapi.dev/api/people/9/"},{"name":"Obi-Wan Kenobi","height":"182","mass":"77","hair_color":"auburn, white","skin_color":"fair","eye_color":"blue-gray","birth_year":"57BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/20/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":["http://swapi.dev/api/vehicles/38/"],"starships":["http://swapi.dev/api/starships/48/","http://swapi.dev/api/starships/59/","http://swapi.dev/api/starships/64/","http://swapi.dev/api/starships/65/","http://swapi.dev/api/starships/74/"],"created":"2014-12-10T16:16:29.192000Z","edited":"2014-12-20T21:17:50.325000Z","url":"http://swapi.dev/api/people/10/"}]}
 
+19:37:20.296 [main] INFO  com.intuit.karate - found scenario at line: 3 - ^SWAPI get people list$
+19:37:20.636 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:37:21.245 [main] DEBUG com.intuit.karate - request:
+1 > GET https://swapi.dev/api/people
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: swapi.dev
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:37:22.175 [main] DEBUG com.intuit.karate - response time in milliseconds: 925.86
+1 < 301
+1 < Connection: keep-alive
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Wed, 30 Dec 2020 00:37:22 GMT
+1 < ETag: "d41d8cd98f00b204e9800998ecf8427e"
+1 < Location: http://swapi.dev/api/people/
+1 < Server: nginx/1.16.1
+1 < Strict-Transport-Security: max-age=15768000
+1 < Transfer-Encoding: chunked
+1 < X-Frame-Options: SAMEORIGIN
+
+
+19:37:22.178 [main] DEBUG com.intuit.karate - request:
+2 > GET https://swapi.dev/api/people
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Host: swapi.dev
+2 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:37:22.386 [main] DEBUG com.intuit.karate - response time in milliseconds: 206.39
+2 < 301
+2 < Connection: keep-alive
+2 < Content-Length: 169
+2 < Content-Type: text/html
+2 < Date: Wed, 30 Dec 2020 00:37:22 GMT
+2 < Location: https://swapi.dev/api/people/
+2 < Server: nginx/1.16.1
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.16.1</center>
+</body>
+</html>
+
+
+19:37:22.387 [main] DEBUG com.intuit.karate - request:
+3 > GET https://swapi.dev/api/people
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Host: swapi.dev
+3 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:37:22.551 [main] DEBUG com.intuit.karate - response time in milliseconds: 162.39
+3 < 200
+3 < Allow: GET, HEAD, OPTIONS
+3 < Connection: keep-alive
+3 < Content-Type: application/json
+3 < Date: Wed, 30 Dec 2020 00:37:22 GMT
+3 < ETag: "35e90fa80df5a1200859818a74a65a4e"
+3 < Server: nginx/1.16.1
+3 < Strict-Transport-Security: max-age=15768000
+3 < Transfer-Encoding: chunked
+3 < Vary: Accept, Cookie
+3 < X-Frame-Options: SAMEORIGIN
+{"count":82,"next":"http://swapi.dev/api/people/?page=2","previous":null,"results":[{"name":"Luke Skywalker","height":"172","mass":"77","hair_color":"blond","skin_color":"fair","eye_color":"blue","birth_year":"19BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":["http://swapi.dev/api/vehicles/14/","http://swapi.dev/api/vehicles/30/"],"starships":["http://swapi.dev/api/starships/12/","http://swapi.dev/api/starships/22/"],"created":"2014-12-09T13:50:51.644000Z","edited":"2014-12-20T21:17:56.891000Z","url":"http://swapi.dev/api/people/1/"},{"name":"C-3PO","height":"167","mass":"75","hair_color":"n/a","skin_color":"gold","eye_color":"yellow","birth_year":"112BBY","gender":"n/a","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":["http://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-10T15:10:51.357000Z","edited":"2014-12-20T21:17:50.309000Z","url":"http://swapi.dev/api/people/2/"},{"name":"R2-D2","height":"96","mass":"32","hair_color":"n/a","skin_color":"white, blue","eye_color":"red","birth_year":"33BBY","gender":"n/a","homeworld":"http://swapi.dev/api/planets/8/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":["http://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-10T15:11:50.376000Z","edited":"2014-12-20T21:17:50.311000Z","url":"http://swapi.dev/api/people/3/"},{"name":"Darth Vader","height":"202","mass":"136","hair_color":"none","skin_color":"white","eye_color":"yellow","birth_year":"41.9BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":["http://swapi.dev/api/starships/13/"],"created":"2014-12-10T15:18:20.704000Z","edited":"2014-12-20T21:17:50.313000Z","url":"http://swapi.dev/api/people/4/"},{"name":"Leia Organa","height":"150","mass":"49","hair_color":"brown","skin_color":"light","eye_color":"brown","birth_year":"19BBY","gender":"female","homeworld":"http://swapi.dev/api/planets/2/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":["http://swapi.dev/api/vehicles/30/"],"starships":[],"created":"2014-12-10T15:20:09.791000Z","edited":"2014-12-20T21:17:50.315000Z","url":"http://swapi.dev/api/people/5/"},{"name":"Owen Lars","height":"178","mass":"120","hair_color":"brown, grey","skin_color":"light","eye_color":"blue","birth_year":"52BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-10T15:52:14.024000Z","edited":"2014-12-20T21:17:50.317000Z","url":"http://swapi.dev/api/people/6/"},{"name":"Beru Whitesun lars","height":"165","mass":"75","hair_color":"brown","skin_color":"light","eye_color":"blue","birth_year":"47BBY","gender":"female","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-10T15:53:41.121000Z","edited":"2014-12-20T21:17:50.319000Z","url":"http://swapi.dev/api/people/7/"},{"name":"R5-D4","height":"97","mass":"32","hair_color":"n/a","skin_color":"white, red","eye_color":"red","birth_year":"unknown","gender":"n/a","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/"],"species":["http://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-10T15:57:50.959000Z","edited":"2014-12-20T21:17:50.321000Z","url":"http://swapi.dev/api/people/8/"},{"name":"Biggs Darklighter","height":"183","mass":"84","hair_color":"black","skin_color":"light","eye_color":"brown","birth_year":"24BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/"],"species":[],"vehicles":[],"starships":["http://swapi.dev/api/starships/12/"],"created":"2014-12-10T15:59:50.509000Z","edited":"2014-12-20T21:17:50.323000Z","url":"http://swapi.dev/api/people/9/"},{"name":"Obi-Wan Kenobi","height":"182","mass":"77","hair_color":"auburn, white","skin_color":"fair","eye_color":"blue-gray","birth_year":"57BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/20/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":["http://swapi.dev/api/vehicles/38/"],"starships":["http://swapi.dev/api/starships/48/","http://swapi.dev/api/starships/59/","http://swapi.dev/api/starships/64/","http://swapi.dev/api/starships/65/","http://swapi.dev/api/starships/74/"],"created":"2014-12-10T16:16:29.192000Z","edited":"2014-12-20T21:17:50.325000Z","url":"http://swapi.dev/api/people/10/"}]}
+
+19:37:22.752 [main] DEBUG com.intuit.karate - request:
+4 > GET https://swapi.dev/people/Luke%20Skywalker
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Host: swapi.dev
+4 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:37:23.321 [main] DEBUG com.intuit.karate - response time in milliseconds: 566.47
+4 < 404
+4 < Connection: keep-alive
+4 < Content-Type: text/html
+4 < Date: Wed, 30 Dec 2020 00:37:23 GMT
+4 < ETag: "c2423203f10b8536e4368452db42f9c4"
+4 < Server: nginx/1.16.1
+4 < Transfer-Encoding: chunked
+4 < X-Frame-Options: SAMEORIGIN
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /people/Luke Skywalker</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+      <td>http://swapi.dev/people/Luke%20Skywalker</td>
+      </tr>
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>swapi.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                ^admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^documentation$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^about$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^stats$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^stripe/donation
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/people/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/planets/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/films/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/species/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/vehicles/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/starships/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+          </li>
+        
+      </ol>
+      <p>The current URL, <code>people/Luke Skywalker</code>, didn't match any of these.</p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You're seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
+
+19:37:23.367 [main] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 24; columnNumber: 3; The element type "meta" must be terminated by the matching end-tag "</meta>".
+19:37:23.368 [main] ERROR com.intuit.karate - status code was: 404, expected: 200, response time: 566, url: https://swapi.dev/people/Luke%20Skywalker, response: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /people/Luke Skywalker</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+      <td>http://swapi.dev/people/Luke%20Skywalker</td>
+      </tr>
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>swapi.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                ^admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^documentation$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^about$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^stats$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^stripe/donation
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/people/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/planets/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/films/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/species/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/vehicles/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/starships/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+          </li>
+        
+      </ol>
+      <p>The current URL, <code>people/Luke Skywalker</code>, didn't match any of these.</p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You're seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
+19:38:41.377 [main] INFO  com.intuit.karate - found scenario at line: 3 - ^SWAPI get people list$
+19:38:41.953 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:38:42.695 [main] DEBUG com.intuit.karate - request:
+1 > GET https://swapi.dev/api/people
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: swapi.dev
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:38:43.488 [main] DEBUG com.intuit.karate - response time in milliseconds: 787.46
+1 < 301
+1 < Connection: keep-alive
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Wed, 30 Dec 2020 00:38:43 GMT
+1 < ETag: "d41d8cd98f00b204e9800998ecf8427e"
+1 < Location: http://swapi.dev/api/people/
+1 < Server: nginx/1.16.1
+1 < Strict-Transport-Security: max-age=15768000
+1 < Transfer-Encoding: chunked
+1 < X-Frame-Options: SAMEORIGIN
+
+
+19:38:43.491 [main] DEBUG com.intuit.karate - request:
+2 > GET https://swapi.dev/api/people
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Host: swapi.dev
+2 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:38:43.707 [main] DEBUG com.intuit.karate - response time in milliseconds: 214.35
+2 < 301
+2 < Connection: keep-alive
+2 < Content-Length: 169
+2 < Content-Type: text/html
+2 < Date: Wed, 30 Dec 2020 00:38:43 GMT
+2 < Location: https://swapi.dev/api/people/
+2 < Server: nginx/1.16.1
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.16.1</center>
+</body>
+</html>
+
+
+19:38:43.708 [main] DEBUG com.intuit.karate - request:
+3 > GET https://swapi.dev/api/people
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Host: swapi.dev
+3 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:38:44.018 [main] DEBUG com.intuit.karate - response time in milliseconds: 308.20
+3 < 200
+3 < Allow: GET, HEAD, OPTIONS
+3 < Connection: keep-alive
+3 < Content-Type: application/json
+3 < Date: Wed, 30 Dec 2020 00:38:43 GMT
+3 < ETag: "35e90fa80df5a1200859818a74a65a4e"
+3 < Server: nginx/1.16.1
+3 < Strict-Transport-Security: max-age=15768000
+3 < Transfer-Encoding: chunked
+3 < Vary: Accept, Cookie
+3 < X-Frame-Options: SAMEORIGIN
+{"count":82,"next":"http://swapi.dev/api/people/?page=2","previous":null,"results":[{"name":"Luke Skywalker","height":"172","mass":"77","hair_color":"blond","skin_color":"fair","eye_color":"blue","birth_year":"19BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":["http://swapi.dev/api/vehicles/14/","http://swapi.dev/api/vehicles/30/"],"starships":["http://swapi.dev/api/starships/12/","http://swapi.dev/api/starships/22/"],"created":"2014-12-09T13:50:51.644000Z","edited":"2014-12-20T21:17:56.891000Z","url":"http://swapi.dev/api/people/1/"},{"name":"C-3PO","height":"167","mass":"75","hair_color":"n/a","skin_color":"gold","eye_color":"yellow","birth_year":"112BBY","gender":"n/a","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":["http://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-10T15:10:51.357000Z","edited":"2014-12-20T21:17:50.309000Z","url":"http://swapi.dev/api/people/2/"},{"name":"R2-D2","height":"96","mass":"32","hair_color":"n/a","skin_color":"white, blue","eye_color":"red","birth_year":"33BBY","gender":"n/a","homeworld":"http://swapi.dev/api/planets/8/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":["http://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-10T15:11:50.376000Z","edited":"2014-12-20T21:17:50.311000Z","url":"http://swapi.dev/api/people/3/"},{"name":"Darth Vader","height":"202","mass":"136","hair_color":"none","skin_color":"white","eye_color":"yellow","birth_year":"41.9BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":["http://swapi.dev/api/starships/13/"],"created":"2014-12-10T15:18:20.704000Z","edited":"2014-12-20T21:17:50.313000Z","url":"http://swapi.dev/api/people/4/"},{"name":"Leia Organa","height":"150","mass":"49","hair_color":"brown","skin_color":"light","eye_color":"brown","birth_year":"19BBY","gender":"female","homeworld":"http://swapi.dev/api/planets/2/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":["http://swapi.dev/api/vehicles/30/"],"starships":[],"created":"2014-12-10T15:20:09.791000Z","edited":"2014-12-20T21:17:50.315000Z","url":"http://swapi.dev/api/people/5/"},{"name":"Owen Lars","height":"178","mass":"120","hair_color":"brown, grey","skin_color":"light","eye_color":"blue","birth_year":"52BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-10T15:52:14.024000Z","edited":"2014-12-20T21:17:50.317000Z","url":"http://swapi.dev/api/people/6/"},{"name":"Beru Whitesun lars","height":"165","mass":"75","hair_color":"brown","skin_color":"light","eye_color":"blue","birth_year":"47BBY","gender":"female","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-10T15:53:41.121000Z","edited":"2014-12-20T21:17:50.319000Z","url":"http://swapi.dev/api/people/7/"},{"name":"R5-D4","height":"97","mass":"32","hair_color":"n/a","skin_color":"white, red","eye_color":"red","birth_year":"unknown","gender":"n/a","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/"],"species":["http://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-10T15:57:50.959000Z","edited":"2014-12-20T21:17:50.321000Z","url":"http://swapi.dev/api/people/8/"},{"name":"Biggs Darklighter","height":"183","mass":"84","hair_color":"black","skin_color":"light","eye_color":"brown","birth_year":"24BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/"],"species":[],"vehicles":[],"starships":["http://swapi.dev/api/starships/12/"],"created":"2014-12-10T15:59:50.509000Z","edited":"2014-12-20T21:17:50.323000Z","url":"http://swapi.dev/api/people/9/"},{"name":"Obi-Wan Kenobi","height":"182","mass":"77","hair_color":"auburn, white","skin_color":"fair","eye_color":"blue-gray","birth_year":"57BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/20/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":["http://swapi.dev/api/vehicles/38/"],"starships":["http://swapi.dev/api/starships/48/","http://swapi.dev/api/starships/59/","http://swapi.dev/api/starships/64/","http://swapi.dev/api/starships/65/","http://swapi.dev/api/starships/74/"],"created":"2014-12-10T16:16:29.192000Z","edited":"2014-12-20T21:17:50.325000Z","url":"http://swapi.dev/api/people/10/"}]}
+
+19:38:44.097 [main] DEBUG com.intuit.karate - request:
+4 > GET https://swapi.dev/people/1
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Host: swapi.dev
+4 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:38:44.573 [main] DEBUG com.intuit.karate - response time in milliseconds: 475.17
+4 < 404
+4 < Connection: keep-alive
+4 < Content-Type: text/html
+4 < Date: Wed, 30 Dec 2020 00:38:44 GMT
+4 < ETag: "8c0e4d748f5200fc2b98c31281ce400d"
+4 < Server: nginx/1.16.1
+4 < Transfer-Encoding: chunked
+4 < X-Frame-Options: SAMEORIGIN
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /people/1</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+      <td>http://swapi.dev/people/1</td>
+      </tr>
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>swapi.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                ^admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^documentation$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^about$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^stats$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^stripe/donation
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/people/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/planets/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/films/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/species/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/vehicles/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/starships/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+          </li>
+        
+      </ol>
+      <p>The current URL, <code>people/1</code>, didn't match any of these.</p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You're seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
+
+19:38:44.618 [main] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 24; columnNumber: 3; The element type "meta" must be terminated by the matching end-tag "</meta>".
+19:38:44.619 [main] ERROR com.intuit.karate - status code was: 404, expected: 200, response time: 475, url: https://swapi.dev/people/1, response: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /people/1</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+      <td>http://swapi.dev/people/1</td>
+      </tr>
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>swapi.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                ^admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^documentation$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^about$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^stats$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^stripe/donation
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/people/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/planets/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/films/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/species/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/vehicles/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/starships/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+          </li>
+        
+      </ol>
+      <p>The current URL, <code>people/1</code>, didn't match any of these.</p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You're seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
+19:39:13.782 [main] INFO  com.intuit.karate - found scenario at line: 3 - ^SWAPI get people list$
+19:39:14.346 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:39:15.110 [main] DEBUG com.intuit.karate - request:
+1 > GET https://swapi.dev/api/people
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: swapi.dev
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:39:15.879 [main] DEBUG com.intuit.karate - response time in milliseconds: 765.14
+1 < 301
+1 < Connection: keep-alive
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Wed, 30 Dec 2020 00:39:15 GMT
+1 < ETag: "d41d8cd98f00b204e9800998ecf8427e"
+1 < Location: http://swapi.dev/api/people/
+1 < Server: nginx/1.16.1
+1 < Strict-Transport-Security: max-age=15768000
+1 < Transfer-Encoding: chunked
+1 < X-Frame-Options: SAMEORIGIN
+
+
+19:39:15.881 [main] DEBUG com.intuit.karate - request:
+2 > GET https://swapi.dev/api/people
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Host: swapi.dev
+2 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:39:16.101 [main] DEBUG com.intuit.karate - response time in milliseconds: 217.70
+2 < 301
+2 < Connection: keep-alive
+2 < Content-Length: 169
+2 < Content-Type: text/html
+2 < Date: Wed, 30 Dec 2020 00:39:16 GMT
+2 < Location: https://swapi.dev/api/people/
+2 < Server: nginx/1.16.1
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.16.1</center>
+</body>
+</html>
+
+
+19:39:16.117 [main] DEBUG com.intuit.karate - request:
+3 > GET https://swapi.dev/api/people
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Host: swapi.dev
+3 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:39:16.279 [main] DEBUG com.intuit.karate - response time in milliseconds: 156.86
+3 < 200
+3 < Allow: GET, HEAD, OPTIONS
+3 < Connection: keep-alive
+3 < Content-Type: application/json
+3 < Date: Wed, 30 Dec 2020 00:39:16 GMT
+3 < ETag: "35e90fa80df5a1200859818a74a65a4e"
+3 < Server: nginx/1.16.1
+3 < Strict-Transport-Security: max-age=15768000
+3 < Transfer-Encoding: chunked
+3 < Vary: Accept, Cookie
+3 < X-Frame-Options: SAMEORIGIN
+{"count":82,"next":"http://swapi.dev/api/people/?page=2","previous":null,"results":[{"name":"Luke Skywalker","height":"172","mass":"77","hair_color":"blond","skin_color":"fair","eye_color":"blue","birth_year":"19BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":["http://swapi.dev/api/vehicles/14/","http://swapi.dev/api/vehicles/30/"],"starships":["http://swapi.dev/api/starships/12/","http://swapi.dev/api/starships/22/"],"created":"2014-12-09T13:50:51.644000Z","edited":"2014-12-20T21:17:56.891000Z","url":"http://swapi.dev/api/people/1/"},{"name":"C-3PO","height":"167","mass":"75","hair_color":"n/a","skin_color":"gold","eye_color":"yellow","birth_year":"112BBY","gender":"n/a","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":["http://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-10T15:10:51.357000Z","edited":"2014-12-20T21:17:50.309000Z","url":"http://swapi.dev/api/people/2/"},{"name":"R2-D2","height":"96","mass":"32","hair_color":"n/a","skin_color":"white, blue","eye_color":"red","birth_year":"33BBY","gender":"n/a","homeworld":"http://swapi.dev/api/planets/8/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":["http://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-10T15:11:50.376000Z","edited":"2014-12-20T21:17:50.311000Z","url":"http://swapi.dev/api/people/3/"},{"name":"Darth Vader","height":"202","mass":"136","hair_color":"none","skin_color":"white","eye_color":"yellow","birth_year":"41.9BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":["http://swapi.dev/api/starships/13/"],"created":"2014-12-10T15:18:20.704000Z","edited":"2014-12-20T21:17:50.313000Z","url":"http://swapi.dev/api/people/4/"},{"name":"Leia Organa","height":"150","mass":"49","hair_color":"brown","skin_color":"light","eye_color":"brown","birth_year":"19BBY","gender":"female","homeworld":"http://swapi.dev/api/planets/2/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":["http://swapi.dev/api/vehicles/30/"],"starships":[],"created":"2014-12-10T15:20:09.791000Z","edited":"2014-12-20T21:17:50.315000Z","url":"http://swapi.dev/api/people/5/"},{"name":"Owen Lars","height":"178","mass":"120","hair_color":"brown, grey","skin_color":"light","eye_color":"blue","birth_year":"52BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-10T15:52:14.024000Z","edited":"2014-12-20T21:17:50.317000Z","url":"http://swapi.dev/api/people/6/"},{"name":"Beru Whitesun lars","height":"165","mass":"75","hair_color":"brown","skin_color":"light","eye_color":"blue","birth_year":"47BBY","gender":"female","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-10T15:53:41.121000Z","edited":"2014-12-20T21:17:50.319000Z","url":"http://swapi.dev/api/people/7/"},{"name":"R5-D4","height":"97","mass":"32","hair_color":"n/a","skin_color":"white, red","eye_color":"red","birth_year":"unknown","gender":"n/a","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/"],"species":["http://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-10T15:57:50.959000Z","edited":"2014-12-20T21:17:50.321000Z","url":"http://swapi.dev/api/people/8/"},{"name":"Biggs Darklighter","height":"183","mass":"84","hair_color":"black","skin_color":"light","eye_color":"brown","birth_year":"24BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/"],"species":[],"vehicles":[],"starships":["http://swapi.dev/api/starships/12/"],"created":"2014-12-10T15:59:50.509000Z","edited":"2014-12-20T21:17:50.323000Z","url":"http://swapi.dev/api/people/9/"},{"name":"Obi-Wan Kenobi","height":"182","mass":"77","hair_color":"auburn, white","skin_color":"fair","eye_color":"blue-gray","birth_year":"57BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/20/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":["http://swapi.dev/api/vehicles/38/"],"starships":["http://swapi.dev/api/starships/48/","http://swapi.dev/api/starships/59/","http://swapi.dev/api/starships/64/","http://swapi.dev/api/starships/65/","http://swapi.dev/api/starships/74/"],"created":"2014-12-10T16:16:29.192000Z","edited":"2014-12-20T21:17:50.325000Z","url":"http://swapi.dev/api/people/10/"}]}
+
+19:39:16.358 [main] DEBUG com.intuit.karate - request:
+4 > GET https://swapi.dev/api/people/1
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Host: swapi.dev
+4 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:39:16.832 [main] DEBUG com.intuit.karate - response time in milliseconds: 455.35
+4 < 301
+4 < Connection: keep-alive
+4 < Content-Type: text/html; charset=utf-8
+4 < Date: Wed, 30 Dec 2020 00:39:16 GMT
+4 < ETag: "d41d8cd98f00b204e9800998ecf8427e"
+4 < Location: http://swapi.dev/api/people/1/
+4 < Server: nginx/1.16.1
+4 < Strict-Transport-Security: max-age=15768000
+4 < Transfer-Encoding: chunked
+4 < X-Frame-Options: SAMEORIGIN
+
+
+19:39:16.834 [main] DEBUG com.intuit.karate - request:
+5 > GET https://swapi.dev/api/people/1
+5 > Accept-Encoding: gzip,deflate
+5 > Connection: Keep-Alive
+5 > Host: swapi.dev
+5 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:39:17.056 [main] DEBUG com.intuit.karate - response time in milliseconds: 220.57
+5 < 301
+5 < Connection: keep-alive
+5 < Content-Length: 169
+5 < Content-Type: text/html
+5 < Date: Wed, 30 Dec 2020 00:39:17 GMT
+5 < Location: https://swapi.dev/api/people/1/
+5 < Server: nginx/1.16.1
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.16.1</center>
+</body>
+</html>
+
+
+19:39:17.058 [main] DEBUG com.intuit.karate - request:
+6 > GET https://swapi.dev/api/people/1
+6 > Accept-Encoding: gzip,deflate
+6 > Connection: Keep-Alive
+6 > Host: swapi.dev
+6 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:39:17.178 [main] DEBUG com.intuit.karate - response time in milliseconds: 118.62
+6 < 200
+6 < Allow: GET, HEAD, OPTIONS
+6 < Connection: keep-alive
+6 < Content-Type: application/json
+6 < Date: Wed, 30 Dec 2020 00:39:17 GMT
+6 < ETag: "bf44153838a0871ffc5cc3aaee8029d0"
+6 < Server: nginx/1.16.1
+6 < Strict-Transport-Security: max-age=15768000
+6 < Transfer-Encoding: chunked
+6 < Vary: Accept, Cookie
+6 < X-Frame-Options: SAMEORIGIN
+{"name":"Luke Skywalker","height":"172","mass":"77","hair_color":"blond","skin_color":"fair","eye_color":"blue","birth_year":"19BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":["http://swapi.dev/api/vehicles/14/","http://swapi.dev/api/vehicles/30/"],"starships":["http://swapi.dev/api/starships/12/","http://swapi.dev/api/starships/22/"],"created":"2014-12-09T13:50:51.644000Z","edited":"2014-12-20T21:17:56.891000Z","url":"http://swapi.dev/api/people/1/"}
+
+19:46:29.461 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:46:30.135 [main] DEBUG com.intuit.karate - request:
+1 > GET https://www.zippopotam.us/us/22030
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.zippopotam.us
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:46:34.033 [main] DEBUG com.intuit.karate - response time in milliseconds: 3890.81
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 6097be9628093848-IAD
+1 < Charset: UTF-8
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 30 Dec 2020 00:46:33 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=tcreVSlt6u6WvBV0IZ0pwOLKczPXmuufbAvd1npGomR5MsaOOb%2FrMMlnRCcGElUNEezdzZJebK9KwBPn6jcUesgEkTx%2FwRkJ0ilZNay0ljyUtQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=ddb83c737cee50b0beb1fdea0387f24f41609289193; expires=Fri, 29-Jan-21 00:46:33 GMT; path=/; domain=.zippopotam.us; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < X-Cache: hit
+1 < cf-request-id: 0752b571da00003848ff9ba000000001
+{"post code": "22030", "country": "United States", "country abbreviation": "US", "places": [{"place name": "Fairfax", "longitude": "-77.3242", "state": "Virginia", "state abbreviation": "VA", "latitude": "38.8458"}]}
+
+19:46:34.458 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:46:34.509 [main] DEBUG com.intuit.karate - request:
+1 > GET https://swapi.dev/api/people
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: swapi.dev
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:46:34.986 [main] DEBUG com.intuit.karate - response time in milliseconds: 473.59
+1 < 301
+1 < Connection: keep-alive
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Wed, 30 Dec 2020 00:46:34 GMT
+1 < ETag: "d41d8cd98f00b204e9800998ecf8427e"
+1 < Location: http://swapi.dev/api/people/
+1 < Server: nginx/1.16.1
+1 < Strict-Transport-Security: max-age=15768000
+1 < Transfer-Encoding: chunked
+1 < X-Frame-Options: SAMEORIGIN
+
+
+19:46:34.989 [main] DEBUG com.intuit.karate - request:
+2 > GET https://swapi.dev/api/people
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Host: swapi.dev
+2 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:46:35.202 [main] DEBUG com.intuit.karate - response time in milliseconds: 212.08
+2 < 301
+2 < Connection: keep-alive
+2 < Content-Length: 169
+2 < Content-Type: text/html
+2 < Date: Wed, 30 Dec 2020 00:46:35 GMT
+2 < Location: https://swapi.dev/api/people/
+2 < Server: nginx/1.16.1
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.16.1</center>
+</body>
+</html>
+
+
+19:46:35.203 [main] DEBUG com.intuit.karate - request:
+3 > GET https://swapi.dev/api/people
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Host: swapi.dev
+3 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:46:35.480 [main] DEBUG com.intuit.karate - response time in milliseconds: 275.84
+3 < 200
+3 < Allow: GET, HEAD, OPTIONS
+3 < Connection: keep-alive
+3 < Content-Type: application/json
+3 < Date: Wed, 30 Dec 2020 00:46:35 GMT
+3 < ETag: "35e90fa80df5a1200859818a74a65a4e"
+3 < Server: nginx/1.16.1
+3 < Strict-Transport-Security: max-age=15768000
+3 < Transfer-Encoding: chunked
+3 < Vary: Accept, Cookie
+3 < X-Frame-Options: SAMEORIGIN
+{"count":82,"next":"http://swapi.dev/api/people/?page=2","previous":null,"results":[{"name":"Luke Skywalker","height":"172","mass":"77","hair_color":"blond","skin_color":"fair","eye_color":"blue","birth_year":"19BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":["http://swapi.dev/api/vehicles/14/","http://swapi.dev/api/vehicles/30/"],"starships":["http://swapi.dev/api/starships/12/","http://swapi.dev/api/starships/22/"],"created":"2014-12-09T13:50:51.644000Z","edited":"2014-12-20T21:17:56.891000Z","url":"http://swapi.dev/api/people/1/"},{"name":"C-3PO","height":"167","mass":"75","hair_color":"n/a","skin_color":"gold","eye_color":"yellow","birth_year":"112BBY","gender":"n/a","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":["http://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-10T15:10:51.357000Z","edited":"2014-12-20T21:17:50.309000Z","url":"http://swapi.dev/api/people/2/"},{"name":"R2-D2","height":"96","mass":"32","hair_color":"n/a","skin_color":"white, blue","eye_color":"red","birth_year":"33BBY","gender":"n/a","homeworld":"http://swapi.dev/api/planets/8/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":["http://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-10T15:11:50.376000Z","edited":"2014-12-20T21:17:50.311000Z","url":"http://swapi.dev/api/people/3/"},{"name":"Darth Vader","height":"202","mass":"136","hair_color":"none","skin_color":"white","eye_color":"yellow","birth_year":"41.9BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":["http://swapi.dev/api/starships/13/"],"created":"2014-12-10T15:18:20.704000Z","edited":"2014-12-20T21:17:50.313000Z","url":"http://swapi.dev/api/people/4/"},{"name":"Leia Organa","height":"150","mass":"49","hair_color":"brown","skin_color":"light","eye_color":"brown","birth_year":"19BBY","gender":"female","homeworld":"http://swapi.dev/api/planets/2/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":["http://swapi.dev/api/vehicles/30/"],"starships":[],"created":"2014-12-10T15:20:09.791000Z","edited":"2014-12-20T21:17:50.315000Z","url":"http://swapi.dev/api/people/5/"},{"name":"Owen Lars","height":"178","mass":"120","hair_color":"brown, grey","skin_color":"light","eye_color":"blue","birth_year":"52BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-10T15:52:14.024000Z","edited":"2014-12-20T21:17:50.317000Z","url":"http://swapi.dev/api/people/6/"},{"name":"Beru Whitesun lars","height":"165","mass":"75","hair_color":"brown","skin_color":"light","eye_color":"blue","birth_year":"47BBY","gender":"female","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-10T15:53:41.121000Z","edited":"2014-12-20T21:17:50.319000Z","url":"http://swapi.dev/api/people/7/"},{"name":"R5-D4","height":"97","mass":"32","hair_color":"n/a","skin_color":"white, red","eye_color":"red","birth_year":"unknown","gender":"n/a","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/"],"species":["http://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-10T15:57:50.959000Z","edited":"2014-12-20T21:17:50.321000Z","url":"http://swapi.dev/api/people/8/"},{"name":"Biggs Darklighter","height":"183","mass":"84","hair_color":"black","skin_color":"light","eye_color":"brown","birth_year":"24BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/"],"species":[],"vehicles":[],"starships":["http://swapi.dev/api/starships/12/"],"created":"2014-12-10T15:59:50.509000Z","edited":"2014-12-20T21:17:50.323000Z","url":"http://swapi.dev/api/people/9/"},{"name":"Obi-Wan Kenobi","height":"182","mass":"77","hair_color":"auburn, white","skin_color":"fair","eye_color":"blue-gray","birth_year":"57BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/20/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":["http://swapi.dev/api/vehicles/38/"],"starships":["http://swapi.dev/api/starships/48/","http://swapi.dev/api/starships/59/","http://swapi.dev/api/starships/64/","http://swapi.dev/api/starships/65/","http://swapi.dev/api/starships/74/"],"created":"2014-12-10T16:16:29.192000Z","edited":"2014-12-20T21:17:50.325000Z","url":"http://swapi.dev/api/people/10/"}]}
+
+19:46:35.567 [main] DEBUG com.intuit.karate - request:
+4 > GET https://swapi.dev/api/people/1
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Host: swapi.dev
+4 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:46:36.062 [main] DEBUG com.intuit.karate - response time in milliseconds: 493.93
+4 < 301
+4 < Connection: keep-alive
+4 < Content-Type: text/html; charset=utf-8
+4 < Date: Wed, 30 Dec 2020 00:46:36 GMT
+4 < ETag: "d41d8cd98f00b204e9800998ecf8427e"
+4 < Location: http://swapi.dev/api/people/1/
+4 < Server: nginx/1.16.1
+4 < Strict-Transport-Security: max-age=15768000
+4 < Transfer-Encoding: chunked
+4 < X-Frame-Options: SAMEORIGIN
+
+
+19:46:36.063 [main] DEBUG com.intuit.karate - request:
+5 > GET https://swapi.dev/api/people/1
+5 > Accept-Encoding: gzip,deflate
+5 > Connection: Keep-Alive
+5 > Host: swapi.dev
+5 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:46:36.270 [main] DEBUG com.intuit.karate - response time in milliseconds: 205.42
+5 < 301
+5 < Connection: keep-alive
+5 < Content-Length: 169
+5 < Content-Type: text/html
+5 < Date: Wed, 30 Dec 2020 00:46:36 GMT
+5 < Location: https://swapi.dev/api/people/1/
+5 < Server: nginx/1.16.1
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.16.1</center>
+</body>
+</html>
+
+
+19:46:36.278 [main] DEBUG com.intuit.karate - request:
+6 > GET https://swapi.dev/api/people/1
+6 > Accept-Encoding: gzip,deflate
+6 > Connection: Keep-Alive
+6 > Host: swapi.dev
+6 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:46:36.401 [main] DEBUG com.intuit.karate - response time in milliseconds: 120.03
+6 < 200
+6 < Allow: GET, HEAD, OPTIONS
+6 < Connection: keep-alive
+6 < Content-Type: application/json
+6 < Date: Wed, 30 Dec 2020 00:46:36 GMT
+6 < ETag: "bf44153838a0871ffc5cc3aaee8029d0"
+6 < Server: nginx/1.16.1
+6 < Strict-Transport-Security: max-age=15768000
+6 < Transfer-Encoding: chunked
+6 < Vary: Accept, Cookie
+6 < X-Frame-Options: SAMEORIGIN
+{"name":"Luke Skywalker","height":"172","mass":"77","hair_color":"blond","skin_color":"fair","eye_color":"blue","birth_year":"19BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":["http://swapi.dev/api/vehicles/14/","http://swapi.dev/api/vehicles/30/"],"starships":["http://swapi.dev/api/starships/12/","http://swapi.dev/api/starships/22/"],"created":"2014-12-09T13:50:51.644000Z","edited":"2014-12-20T21:17:56.891000Z","url":"http://swapi.dev/api/people/1/"}
+
+19:46:36.594 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:46:36.627 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:46:36.772 [main] DEBUG com.intuit.karate - response time in milliseconds: 142.57
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Age: 19394
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 6097bea7bccd3e40-EWR
+1 < Cache-Control: max-age=43200
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 30 Dec 2020 00:46:36 GMT
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Pragma: no-cache
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=Y%2Bdo5Xb7VxM%2FEAzODEbpaV3jCPsxYaYvT5Xu3FGyEt14OYpd%2Bgm%2B%2B5JnWRCILzb6Dd%2FQ7ZhNBYeLxcVq7XGD4My2Ut8jVWmhBH%2F54zlCGz%2FNcxhhVKDmmjQjbewA"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d54b13d754ac6c475295c2e93858acfd41609289196; expires=Fri, 29-Jan-21 00:46:36 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1604552136
+1 < cf-request-id: 0752b57cd600003e40c8234000000001
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+19:46:36.805 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Cookie: __cfduid=d54b13d754ac6c475295c2e93858acfd41609289196
+2 > Host: jsonplaceholder.typicode.com
+2 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+
+19:46:36.890 [main] DEBUG com.intuit.karate - response time in milliseconds: 83.62
+2 < 200
+2 < Access-Control-Allow-Credentials: true
+2 < Age: 19878
+2 < CF-Cache-Status: HIT
+2 < CF-RAY: 6097bea868e73dec-EWR
+2 < Cache-Control: max-age=43200
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Wed, 30 Dec 2020 00:46:36 GMT
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Expires: -1
+2 < NEL: {"report_to":"cf-nel","max_age":604800}
+2 < Pragma: no-cache
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=40mRa4ChzUkO1tPlQbRg%2FgBTzgMk3q2ZXVe7kQTkmUsPuOWrkhBn7GOXeML8icgufDulsML6tjJdIHe4FGClVdnialFiFdfFs3tNGDdd3j%2F1Ton%2BOdZYpNDRGm9l"}],"group":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < Transfer-Encoding: chunked
+2 < Vary: Origin, Accept-Encoding
+2 < Via: 1.1 vegur
+2 < X-Content-Type-Options: nosniff
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 998
+2 < X-Ratelimit-Reset: 1609240536
+2 < cf-request-id: 0752b57d3d00003decd1a53000000001
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+19:46:36.984 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:46:37.038 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 160
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+19:46:37.179 [main] DEBUG com.intuit.karate - response time in milliseconds: 137.30
+1 < 201
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Expose-Headers: Location
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 6097beaa0c17efd4-EWR
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Length: 216
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 30 Dec 2020 00:46:37 GMT
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Pragma: no-cache
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=1m9VVff%2FJ%2FwyMnKiAKc%2FmRVQ8we2l6mulYkweetpWQEWzZ445Nte%2FJrmg0bfYFk0Ee7yqFI%2F4e43ni51J8H4RS9oWQaLrfonF6UPmTaNmez22YH9qsXUAb18juJ5"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dff1a6c9be27d89d2bcfd8648eb63f2811609289197; expires=Fri, 29-Jan-21 00:46:37 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1609289204
+1 < cf-request-id: 0752b57e420000efd45fa4f000000001
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+19:46:37.199 [main] INFO  com.intuit.karate - [print] created id is:  11
+20:28:31.179 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:33:50.023 [main] INFO  com.intuit.karate - found scenario at line: 2 - ^Simple assertion for numbers$
+20:33:50.506 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:33:50.688 [main] INFO  com.intuit.karate - [print] Hello World !
+20:35:14.993 [main] INFO  com.intuit.karate - found scenario at line: 2 - ^Simple assertion for numbers$
+20:35:15.313 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:35:15.409 [main] INFO  com.intuit.karate - [print] Hello World !2345
+20:35:15.431 [main] INFO  com.intuit.karate - [print] Hello World ! 23 45
+20:35:34.281 [main] INFO  com.intuit.karate - found scenario at line: 2 - ^Simple assertion for numbers$
+20:35:34.698 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:35:34.838 [main] INFO  com.intuit.karate - [print] Hello World !2345
+20:35:34.857 [main] INFO  com.intuit.karate - [print] Hello World !68
+20:35:34.893 [main] INFO  com.intuit.karate - [print] Hello World ! 23 45
+20:36:05.216 [main] INFO  com.intuit.karate - found scenario at line: 2 - ^Simple assertion for numbers$
+20:36:05.913 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:36:06.074 [main] INFO  com.intuit.karate - [print] Hello World !2345
+20:36:06.099 [main] INFO  com.intuit.karate - [print] Hello World !68
+20:36:06.110 [main] INFO  com.intuit.karate - [print] Hello World ! 23 45
+20:43:11.106 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 13 - ^Working with Simple Json$
+20:43:11.085 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:43:11.588 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:43:11.845 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Whole Json is  {
+  "name": "John",
+  "nums": [
+    1,
+    2,
+    3
+  ]
+}
+
+20:43:12.143 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/practice/assertion_practice.feature
+20:45:05.507 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:45:05.540 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 13 - ^Working with Simple Json$
+20:45:06.079 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:45:06.477 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Whole Json is  {
+  "name": "John",
+  "nums": [
+    1,
+    2,
+    3
+  ]
+}
+
+20:45:06.553 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] The name is  John
+20:45:06.570 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] The nums are  [
+  1,
+  2,
+  3
+]
+
+20:45:06.750 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] The  last nums is  3
+20:45:07.063 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/practice/assertion_practice.feature
+20:48:17.647 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:48:17.669 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 13 - ^Working with Simple Json$
+20:48:18.171 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:48:18.345 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Whole Json is  {
+  "name": "John",
+  "nums": [
+    1,
+    2,
+    3
+  ]
+}
+
+20:48:18.365 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] The name is  John
+20:48:18.401 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] The nums are  [
+  1,
+  2,
+  3
+]
+
+20:48:18.435 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] The  last nums is  3
+20:48:18.453 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - assertion failed: assert evaluated to false: myJson.name == 'Tucky'
+20:48:18.791 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/practice/assertion_practice.feature
+20:49:00.192 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:49:00.233 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 13 - ^Working with Simple Json$
+20:49:00.742 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:49:01.216 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Whole Json is  {
+  "name": "John",
+  "nums": [
+    1,
+    2,
+    3
+  ]
+}
+
+20:49:01.450 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] The name is  John
+20:49:01.481 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] The nums are  [
+  1,
+  2,
+  3
+]
+
+20:49:01.566 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] The  last nums is  3
+20:49:01.642 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - assertion failed: assert evaluated to false: myJson.name[2] == 54
+20:49:02.236 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/practice/assertion_practice.feature
+20:49:17.320 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:49:17.736 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:49:18.025 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Hello World !2345
+20:49:18.033 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Hello World !68
+20:49:18.045 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Hello World ! 23 45
+20:49:18.083 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:49:18.101 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Whole Json is  {
+  "name": "John",
+  "nums": [
+    1,
+    2,
+    3
+  ]
+}
+
+20:49:18.128 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] The name is  John
+20:49:18.139 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] The nums are  [
+  1,
+  2,
+  3
+]
+
+20:49:18.210 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] The  last nums is  3
+20:49:18.250 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - assertion failed: assert evaluated to false: myJson.name[2] == 3
+20:49:18.492 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/practice/assertion_practice.feature
+20:50:25.090 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:50:25.974 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:50:26.580 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Hello World !2345
+20:50:26.610 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Hello World !68
+20:50:26.616 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Hello World ! 23 45
+20:50:26.735 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:50:26.814 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Whole Json is  {
+  "name": "John",
+  "nums": [
+    1,
+    2,
+    3
+  ]
+}
+
+20:50:26.916 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] The name is  John
+20:50:26.972 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] The nums are  [
+  1,
+  2,
+  3
+]
+
+20:50:27.110 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] The  last nums is  3
+20:50:27.570 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/practice/assertion_practice.feature
+21:16:03.388 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+21:16:03.426 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 6 - ^User should be able to call \/api\/hello to get greeting$
+21:16:04.235 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+21:16:05.751 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET http://52.201.187.226:8000/api/hello
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: 52.201.187.226:8000
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.9)
+
+21:16:05.837 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 79.80
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 17
+1 < Content-Type: text/plain;charset=UTF-8
+1 < Date: Wed, 30 Dec 2020 02:16:04 GMT
+1 < Keep-Alive: timeout=60
+Hello from Sparta
+
+21:16:06.054 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/Spartans/spartan.feature
+21:21:55.690 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+21:21:55.716 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 6 - ^User should be able to call \/api\/hello to get greeting$
+21:21:56.213 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+21:21:57.205 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET http://52.201.187.226:8000/api/hello
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: 52.201.187.226:8000
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.9)
+
+21:21:57.285 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 73.42
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 17
+1 < Content-Type: text/plain;charset=UTF-8
+1 < Date: Wed, 30 Dec 2020 02:21:56 GMT
+1 < Keep-Alive: timeout=60
+Hello from Sparta
+
+21:21:57.517 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/Spartans/spartan.feature

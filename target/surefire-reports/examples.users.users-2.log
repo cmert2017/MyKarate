@@ -1,0 +1,53 @@
+19:46:36.984 karate.env system property was: null 
+19:46:37.041 request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 160
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+19:46:37.180 response time in milliseconds: 137.30
+1 < 201
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Expose-Headers: Location
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 6097beaa0c17efd4-EWR
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Length: 216
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 30 Dec 2020 00:46:37 GMT
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Pragma: no-cache
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=1m9VVff%2FJ%2FwyMnKiAKc%2FmRVQ8we2l6mulYkweetpWQEWzZ445Nte%2FJrmg0bfYFk0Ee7yqFI%2F4e43ni51J8H4RS9oWQaLrfonF6UPmTaNmez22YH9qsXUAb18juJ5"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dff1a6c9be27d89d2bcfd8648eb63f2811609289197; expires=Fri, 29-Jan-21 00:46:37 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1609289204
+1 < cf-request-id: 0752b57e420000efd45fa4f000000001
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+19:46:37.200 [print] created id is:  11

@@ -45,7 +45,7 @@
   .embed img { width: 100%; }
 </style>
         
-        <title>src.test.java.examples.users.sample</title>
+        <title>examples.users.users</title>
         <script>window.onload = function() {
   var possibleModes = ['failed', 'skipped', 'passed'];
   var tests = {};
@@ -169,169 +169,467 @@
         <div>
             <div class="scenario">
                 <div class="scenario-heading">
-                    <span class="scenario-keyword">Scenario: [1:3]</span><span class="scenario-name">SWAPI get people list</span>
+                    <span class="scenario-keyword">Scenario: [1:7]</span><span class="scenario-name">get all users and then get the first user by id</span>
                 </div>
                 <div class="step-row">
-                    <div class="step-cell passed">Given url 'https://swapi.dev'</div>
-                    <div class="time-cell passed">0.022574</div>
+                    <div class="step-cell passed">* url 'https://jsonplaceholder.typicode.com'</div>
+                    <div class="time-cell passed">0.008027</div>
                 </div>
-                <div class="preformatted">19:39:13.790 found scenario at line: 3 - ^SWAPI get people list$
-19:39:14.349 karate.env system property was: null</div>
+                <div class="preformatted">19:46:36.597 karate.env system property was: null</div>
                 <div class="step-row">
-                    <div class="step-cell passed">And path 'api/people'</div>
-                    <div class="time-cell passed">0.004331</div>
+                    <div class="step-cell passed">Given path 'users'</div>
+                    <div class="time-cell passed">0.012699</div>
                 </div>
                 <div class="step-row">
                     <div class="step-cell passed">When method get</div>
-                    <div class="time-cell passed">1.759575</div>
+                    <div class="time-cell passed">0.149297</div>
                 </div>
-                <div class="preformatted">19:39:15.110 request:
-1 &gt; GET https://swapi.dev/api/people
+                <div class="preformatted">19:46:36.627 request:
+1 &gt; GET https://jsonplaceholder.typicode.com/users
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
-1 &gt; Host: swapi.dev
+1 &gt; Host: jsonplaceholder.typicode.com
 1 &gt; User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
 
-19:39:15.879 response time in milliseconds: 765.14
-1 &lt; 301
+19:46:36.773 response time in milliseconds: 142.57
+1 &lt; 200
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Age: 19394
+1 &lt; CF-Cache-Status: HIT
+1 &lt; CF-RAY: 6097bea7bccd3e40-EWR
+1 &lt; Cache-Control: max-age=43200
 1 &lt; Connection: keep-alive
-1 &lt; Content-Type: text/html; charset=utf-8
-1 &lt; Date: Wed, 30 Dec 2020 00:39:15 GMT
-1 &lt; ETag: "d41d8cd98f00b204e9800998ecf8427e"
-1 &lt; Location: http://swapi.dev/api/people/
-1 &lt; Server: nginx/1.16.1
-1 &lt; Strict-Transport-Security: max-age=15768000
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Wed, 30 Dec 2020 00:46:36 GMT
+1 &lt; Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 &lt; Expires: -1
+1 &lt; NEL: {"report_to":"cf-nel","max_age":604800}
+1 &lt; Pragma: no-cache
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=Y%2Bdo5Xb7VxM%2FEAzODEbpaV3jCPsxYaYvT5Xu3FGyEt14OYpd%2Bgm%2B%2B5JnWRCILzb6Dd%2FQ7ZhNBYeLxcVq7XGD4My2Ut8jVWmhBH%2F54zlCGz%2FNcxhhVKDmmjQjbewA"}],"group":"cf-nel","max_age":604800}
+1 &lt; Server: cloudflare
+1 &lt; Set-Cookie: __cfduid=d54b13d754ac6c475295c2e93858acfd41609289196; expires=Fri, 29-Jan-21 00:46:36 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
 1 &lt; Transfer-Encoding: chunked
-1 &lt; X-Frame-Options: SAMEORIGIN
-
-
-19:39:15.882 request:
-2 &gt; GET https://swapi.dev/api/people
-2 &gt; Accept-Encoding: gzip,deflate
-2 &gt; Connection: Keep-Alive
-2 &gt; Host: swapi.dev
-2 &gt; User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
-
-19:39:16.102 response time in milliseconds: 217.70
-2 &lt; 301
-2 &lt; Connection: keep-alive
-2 &lt; Content-Length: 169
-2 &lt; Content-Type: text/html
-2 &lt; Date: Wed, 30 Dec 2020 00:39:16 GMT
-2 &lt; Location: https://swapi.dev/api/people/
-2 &lt; Server: nginx/1.16.1
-&lt;html&gt;&#13;
-&lt;head&gt;&lt;title&gt;301 Moved Permanently&lt;/title&gt;&lt;/head&gt;&#13;
-&lt;body&gt;&#13;
-&lt;center&gt;&lt;h1&gt;301 Moved Permanently&lt;/h1&gt;&lt;/center&gt;&#13;
-&lt;hr&gt;&lt;center&gt;nginx/1.16.1&lt;/center&gt;&#13;
-&lt;/body&gt;&#13;
-&lt;/html&gt;&#13;
-
-
-19:39:16.122 request:
-3 &gt; GET https://swapi.dev/api/people
-3 &gt; Accept-Encoding: gzip,deflate
-3 &gt; Connection: Keep-Alive
-3 &gt; Host: swapi.dev
-3 &gt; User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
-
-19:39:16.279 response time in milliseconds: 156.86
-3 &lt; 200
-3 &lt; Allow: GET, HEAD, OPTIONS
-3 &lt; Connection: keep-alive
-3 &lt; Content-Type: application/json
-3 &lt; Date: Wed, 30 Dec 2020 00:39:16 GMT
-3 &lt; ETag: "35e90fa80df5a1200859818a74a65a4e"
-3 &lt; Server: nginx/1.16.1
-3 &lt; Strict-Transport-Security: max-age=15768000
-3 &lt; Transfer-Encoding: chunked
-3 &lt; Vary: Accept, Cookie
-3 &lt; X-Frame-Options: SAMEORIGIN
-{"count":82,"next":"http://swapi.dev/api/people/?page=2","previous":null,"results":[{"name":"Luke Skywalker","height":"172","mass":"77","hair_color":"blond","skin_color":"fair","eye_color":"blue","birth_year":"19BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":["http://swapi.dev/api/vehicles/14/","http://swapi.dev/api/vehicles/30/"],"starships":["http://swapi.dev/api/starships/12/","http://swapi.dev/api/starships/22/"],"created":"2014-12-09T13:50:51.644000Z","edited":"2014-12-20T21:17:56.891000Z","url":"http://swapi.dev/api/people/1/"},{"name":"C-3PO","height":"167","mass":"75","hair_color":"n/a","skin_color":"gold","eye_color":"yellow","birth_year":"112BBY","gender":"n/a","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":["http://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-10T15:10:51.357000Z","edited":"2014-12-20T21:17:50.309000Z","url":"http://swapi.dev/api/people/2/"},{"name":"R2-D2","height":"96","mass":"32","hair_color":"n/a","skin_color":"white, blue","eye_color":"red","birth_year":"33BBY","gender":"n/a","homeworld":"http://swapi.dev/api/planets/8/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":["http://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-10T15:11:50.376000Z","edited":"2014-12-20T21:17:50.311000Z","url":"http://swapi.dev/api/people/3/"},{"name":"Darth Vader","height":"202","mass":"136","hair_color":"none","skin_color":"white","eye_color":"yellow","birth_year":"41.9BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":["http://swapi.dev/api/starships/13/"],"created":"2014-12-10T15:18:20.704000Z","edited":"2014-12-20T21:17:50.313000Z","url":"http://swapi.dev/api/people/4/"},{"name":"Leia Organa","height":"150","mass":"49","hair_color":"brown","skin_color":"light","eye_color":"brown","birth_year":"19BBY","gender":"female","homeworld":"http://swapi.dev/api/planets/2/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":["http://swapi.dev/api/vehicles/30/"],"starships":[],"created":"2014-12-10T15:20:09.791000Z","edited":"2014-12-20T21:17:50.315000Z","url":"http://swapi.dev/api/people/5/"},{"name":"Owen Lars","height":"178","mass":"120","hair_color":"brown, grey","skin_color":"light","eye_color":"blue","birth_year":"52BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-10T15:52:14.024000Z","edited":"2014-12-20T21:17:50.317000Z","url":"http://swapi.dev/api/people/6/"},{"name":"Beru Whitesun lars","height":"165","mass":"75","hair_color":"brown","skin_color":"light","eye_color":"blue","birth_year":"47BBY","gender":"female","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-10T15:53:41.121000Z","edited":"2014-12-20T21:17:50.319000Z","url":"http://swapi.dev/api/people/7/"},{"name":"R5-D4","height":"97","mass":"32","hair_color":"n/a","skin_color":"white, red","eye_color":"red","birth_year":"unknown","gender":"n/a","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/"],"species":["http://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-10T15:57:50.959000Z","edited":"2014-12-20T21:17:50.321000Z","url":"http://swapi.dev/api/people/8/"},{"name":"Biggs Darklighter","height":"183","mass":"84","hair_color":"black","skin_color":"light","eye_color":"brown","birth_year":"24BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/"],"species":[],"vehicles":[],"starships":["http://swapi.dev/api/starships/12/"],"created":"2014-12-10T15:59:50.509000Z","edited":"2014-12-20T21:17:50.323000Z","url":"http://swapi.dev/api/people/9/"},{"name":"Obi-Wan Kenobi","height":"182","mass":"77","hair_color":"auburn, white","skin_color":"fair","eye_color":"blue-gray","birth_year":"57BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/20/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":["http://swapi.dev/api/vehicles/38/"],"starships":["http://swapi.dev/api/starships/48/","http://swapi.dev/api/starships/59/","http://swapi.dev/api/starships/64/","http://swapi.dev/api/starships/65/","http://swapi.dev/api/starships/74/"],"created":"2014-12-10T16:16:29.192000Z","edited":"2014-12-20T21:17:50.325000Z","url":"http://swapi.dev/api/people/10/"}]}</div>
+1 &lt; Vary: Origin, Accept-Encoding
+1 &lt; Via: 1.1 vegur
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Powered-By: Express
+1 &lt; X-Ratelimit-Limit: 1000
+1 &lt; X-Ratelimit-Remaining: 999
+1 &lt; X-Ratelimit-Reset: 1604552136
+1 &lt; cf-request-id: 0752b57cd600003e40c8234000000001
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]</div>
                 <div class="step-row">
                     <div class="step-cell passed">Then status 200</div>
-                    <div class="time-cell passed">0.000044</div>
+                    <div class="time-cell passed">0.000018</div>
                 </div>
                 <div class="step-row">
-                    <div class="step-cell passed">* def first = response.results[0]</div>
-                    <div class="time-cell passed">0.038407</div>
+                    <div class="step-cell passed">* def first = response[0]</div>
+                    <div class="time-cell passed">0.010608</div>
                 </div>
                 <div class="step-row">
-                    <div class="step-cell passed">Given path 'api/people', 1</div>
-                    <div class="time-cell passed">0.02778</div>
+                    <div class="step-cell passed">Given path 'users', first.id</div>
+                    <div class="time-cell passed">0.010648</div>
                 </div>
                 <div class="step-row">
                     <div class="step-cell passed">When method get</div>
-                    <div class="time-cell passed">0.828135</div>
+                    <div class="time-cell passed">0.091317</div>
                 </div>
-                <div class="preformatted">19:39:16.376 request:
-4 &gt; GET https://swapi.dev/api/people/1
-4 &gt; Accept-Encoding: gzip,deflate
-4 &gt; Connection: Keep-Alive
-4 &gt; Host: swapi.dev
-4 &gt; User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+                <div class="preformatted">19:46:36.805 request:
+2 &gt; GET https://jsonplaceholder.typicode.com/users/1
+2 &gt; Accept-Encoding: gzip,deflate
+2 &gt; Connection: Keep-Alive
+2 &gt; Cookie: __cfduid=d54b13d754ac6c475295c2e93858acfd41609289196
+2 &gt; Host: jsonplaceholder.typicode.com
+2 &gt; User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
 
-19:39:16.832 response time in milliseconds: 455.35
-4 &lt; 301
-4 &lt; Connection: keep-alive
-4 &lt; Content-Type: text/html; charset=utf-8
-4 &lt; Date: Wed, 30 Dec 2020 00:39:16 GMT
-4 &lt; ETag: "d41d8cd98f00b204e9800998ecf8427e"
-4 &lt; Location: http://swapi.dev/api/people/1/
-4 &lt; Server: nginx/1.16.1
-4 &lt; Strict-Transport-Security: max-age=15768000
-4 &lt; Transfer-Encoding: chunked
-4 &lt; X-Frame-Options: SAMEORIGIN
-
-
-19:39:16.835 request:
-5 &gt; GET https://swapi.dev/api/people/1
-5 &gt; Accept-Encoding: gzip,deflate
-5 &gt; Connection: Keep-Alive
-5 &gt; Host: swapi.dev
-5 &gt; User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
-
-19:39:17.057 response time in milliseconds: 220.57
-5 &lt; 301
-5 &lt; Connection: keep-alive
-5 &lt; Content-Length: 169
-5 &lt; Content-Type: text/html
-5 &lt; Date: Wed, 30 Dec 2020 00:39:17 GMT
-5 &lt; Location: https://swapi.dev/api/people/1/
-5 &lt; Server: nginx/1.16.1
-&lt;html&gt;&#13;
-&lt;head&gt;&lt;title&gt;301 Moved Permanently&lt;/title&gt;&lt;/head&gt;&#13;
-&lt;body&gt;&#13;
-&lt;center&gt;&lt;h1&gt;301 Moved Permanently&lt;/h1&gt;&lt;/center&gt;&#13;
-&lt;hr&gt;&lt;center&gt;nginx/1.16.1&lt;/center&gt;&#13;
-&lt;/body&gt;&#13;
-&lt;/html&gt;&#13;
-
-
-19:39:17.058 request:
-6 &gt; GET https://swapi.dev/api/people/1
-6 &gt; Accept-Encoding: gzip,deflate
-6 &gt; Connection: Keep-Alive
-6 &gt; Host: swapi.dev
-6 &gt; User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
-
-19:39:17.179 response time in milliseconds: 118.62
-6 &lt; 200
-6 &lt; Allow: GET, HEAD, OPTIONS
-6 &lt; Connection: keep-alive
-6 &lt; Content-Type: application/json
-6 &lt; Date: Wed, 30 Dec 2020 00:39:17 GMT
-6 &lt; ETag: "bf44153838a0871ffc5cc3aaee8029d0"
-6 &lt; Server: nginx/1.16.1
-6 &lt; Strict-Transport-Security: max-age=15768000
-6 &lt; Transfer-Encoding: chunked
-6 &lt; Vary: Accept, Cookie
-6 &lt; X-Frame-Options: SAMEORIGIN
-{"name":"Luke Skywalker","height":"172","mass":"77","hair_color":"blond","skin_color":"fair","eye_color":"blue","birth_year":"19BBY","gender":"male","homeworld":"http://swapi.dev/api/planets/1/","films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/2/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/6/"],"species":[],"vehicles":["http://swapi.dev/api/vehicles/14/","http://swapi.dev/api/vehicles/30/"],"starships":["http://swapi.dev/api/starships/12/","http://swapi.dev/api/starships/22/"],"created":"2014-12-09T13:50:51.644000Z","edited":"2014-12-20T21:17:56.891000Z","url":"http://swapi.dev/api/people/1/"}</div>
+19:46:36.893 response time in milliseconds: 83.62
+2 &lt; 200
+2 &lt; Access-Control-Allow-Credentials: true
+2 &lt; Age: 19878
+2 &lt; CF-Cache-Status: HIT
+2 &lt; CF-RAY: 6097bea868e73dec-EWR
+2 &lt; Cache-Control: max-age=43200
+2 &lt; Connection: keep-alive
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Date: Wed, 30 Dec 2020 00:46:36 GMT
+2 &lt; Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 &lt; Expires: -1
+2 &lt; NEL: {"report_to":"cf-nel","max_age":604800}
+2 &lt; Pragma: no-cache
+2 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=40mRa4ChzUkO1tPlQbRg%2FgBTzgMk3q2ZXVe7kQTkmUsPuOWrkhBn7GOXeML8icgufDulsML6tjJdIHe4FGClVdnialFiFdfFs3tNGDdd3j%2F1Ton%2BOdZYpNDRGm9l"}],"group":"cf-nel","max_age":604800}
+2 &lt; Server: cloudflare
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Vary: Origin, Accept-Encoding
+2 &lt; Via: 1.1 vegur
+2 &lt; X-Content-Type-Options: nosniff
+2 &lt; X-Powered-By: Express
+2 &lt; X-Ratelimit-Limit: 1000
+2 &lt; X-Ratelimit-Remaining: 998
+2 &lt; X-Ratelimit-Reset: 1609240536
+2 &lt; cf-request-id: 0752b57d3d00003decd1a53000000001
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}</div>
                 <div class="step-row">
                     <div class="step-cell passed">Then status 200</div>
-                    <div class="time-cell passed">0.000075</div>
+                    <div class="time-cell passed">0.00002</div>
+                </div>
+            </div>
+            <div class="scenario">
+                <div class="scenario-heading">
+                    <span class="scenario-keyword">Scenario: [2:18]</span><span class="scenario-name">create a user and then get it by id</span>
+                </div>
+                <div class="step-row">
+                    <div class="step-cell passed">* url 'https://jsonplaceholder.typicode.com'</div>
+                    <div class="time-cell passed">0.00083</div>
+                </div>
+                <div class="preformatted">19:46:36.984 karate.env system property was: null</div>
+                <div class="step-row">
+                    <div class="step-cell passed">* def user =</div>
+                    <div class="time-cell passed">0.00184</div>
+                </div>
+                <div class="preformatted">{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  }
+}</div>
+                <div class="step-row">
+                    <div class="step-cell passed">Given url 'https://jsonplaceholder.typicode.com/users'</div>
+                    <div class="time-cell passed">0.009193</div>
+                </div>
+                <div class="step-row">
+                    <div class="step-cell passed">And request user</div>
+                    <div class="time-cell passed">0.000105</div>
+                </div>
+                <div class="step-row">
+                    <div class="step-cell passed">When method post</div>
+                    <div class="time-cell passed">0.183187</div>
+                </div>
+                <div class="preformatted">19:46:37.041 request:
+1 &gt; POST https://jsonplaceholder.typicode.com/users
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 160
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: jsonplaceholder.typicode.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.9)
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+19:46:37.180 response time in milliseconds: 137.30
+1 &lt; 201
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: Location
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; CF-RAY: 6097beaa0c17efd4-EWR
+1 &lt; Cache-Control: no-cache
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 216
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Wed, 30 Dec 2020 00:46:37 GMT
+1 &lt; Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 &lt; Expires: -1
+1 &lt; Location: http://jsonplaceholder.typicode.com/users/11
+1 &lt; NEL: {"report_to":"cf-nel","max_age":604800}
+1 &lt; Pragma: no-cache
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=1m9VVff%2FJ%2FwyMnKiAKc%2FmRVQ8we2l6mulYkweetpWQEWzZ445Nte%2FJrmg0bfYFk0Ee7yqFI%2F4e43ni51J8H4RS9oWQaLrfonF6UPmTaNmez22YH9qsXUAb18juJ5"}],"group":"cf-nel","max_age":604800}
+1 &lt; Server: cloudflare
+1 &lt; Set-Cookie: __cfduid=dff1a6c9be27d89d2bcfd8648eb63f2811609289197; expires=Fri, 29-Jan-21 00:46:37 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 &lt; Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 &lt; Via: 1.1 vegur
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Powered-By: Express
+1 &lt; X-Ratelimit-Limit: 1000
+1 &lt; X-Ratelimit-Remaining: 999
+1 &lt; X-Ratelimit-Reset: 1609289204
+1 &lt; cf-request-id: 0752b57e420000efd45fa4f000000001
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}</div>
+                <div class="step-row">
+                    <div class="step-cell passed">Then status 201</div>
+                    <div class="time-cell passed">0.00002</div>
+                </div>
+                <div class="step-row">
+                    <div class="step-cell passed">* def id = response.id</div>
+                    <div class="time-cell passed">0.005374</div>
+                </div>
+                <div class="step-row">
+                    <div class="step-cell passed">* print 'created id is: ', id</div>
+                    <div class="time-cell passed">0.010285</div>
+                </div>
+                <div class="preformatted">19:46:37.200 [print] created id is:  11</div>
+                <div class="step-row">
+                    <div class="step-cell passed">Given path id</div>
+                    <div class="time-cell passed">0.000039</div>
                 </div>
             </div>
         </div>

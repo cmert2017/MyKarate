@@ -1,0 +1,5 @@
+20:36:05.234 found scenario at line: 2 - ^Simple assertion for numbers$
+20:36:05.914 karate.env system property was: null 
+20:36:06.076 [print] Hello World !2345
+20:36:06.100 [print] Hello World !68
+20:36:06.111 [print] Hello World ! 23 45

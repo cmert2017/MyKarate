@@ -1,0 +1,18 @@
+21:21:56.214 karate.env system property was:  
+21:21:57.205 request:
+1 > GET http://52.201.187.226:8000/api/hello
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: 52.201.187.226:8000
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.9)
+
+21:21:57.285 response time in milliseconds: 73.42
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 17
+1 < Content-Type: text/plain;charset=UTF-8
+1 < Date: Wed, 30 Dec 2020 02:21:56 GMT
+1 < Keep-Alive: timeout=60
+Hello from Sparta
+
+ myJson.name[2] == 3
