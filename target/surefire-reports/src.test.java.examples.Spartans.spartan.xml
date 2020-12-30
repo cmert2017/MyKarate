@@ -1,9 +1,27 @@
-<testsuite failures="0" name="src/test/java/examples/Spartans/spartan.feature" skipped="0" tests="1" time="0.906185">
-  <testcase classname="src.test.java.examples.Spartans.spartan" name="User should be able to call /api/hello to get greeting" time="0.906185">
+<testsuite failures="0" name="src/test/java/examples/Spartans/spartan.feature" skipped="0" tests="1" time="0.938663">
+  <testcase classname="src.test.java.examples.Spartans.spartan" name="Spartan CRUD Operation" time="0.938663">
     <system-out>* url 'http://52.201.187.226:8000' ........................................ passed
-Given path 'api/hello' .................................................... passed
+* path '/api' ............................................................. passed
+* def payload = ........................................................... passed
+Given path '/spartans' .................................................... passed
+And header Content-Type = 'application/json' .............................. passed
+And request payload ....................................................... passed
+When method post .......................................................... passed
+Then status 201 ........................................................... passed
+Then response.success == 'A Spartan is Born!' ............................. passed
+* def newID = response.data.id ............................................ passed
+Given path 'api/spartans' , newID ......................................... passed
 When method get ........................................................... passed
 Then status 200 ........................................................... passed
-Then header Content-Type = 'text/plain;charset=UTF-8' ..................... passed</system-out>
+Then match header Content-Type == 'application/json' ...................... passed
+* def newPayload = ........................................................ passed
+Given path '/api/spartans/' , newID ....................................... passed
+And header Content-Type = 'application/json' .............................. passed
+And request newPayload .................................................... passed
+When method put ........................................................... passed
+Then status 204 ........................................................... passed
+Given path '/api/spartans' , newID ........................................ passed
+When method delete ........................................................ passed
+Then status 204 ........................................................... passed</system-out>
   </testcase>
 </testsuite>
